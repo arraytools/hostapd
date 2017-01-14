@@ -13,14 +13,19 @@ Wifi adapter: TP-LINK TL-WN722N
 
 Note: Change the ssid and wpa_passphrase in `/etc/hostapd/hostapd.conf`.
 
-1. hostapd
+* hostapd
 ```bash
    /etc/hostapd/hostapd.conf
    /etc/default/hostapd
 ```
 
-2. udhcpd
+* udhcpd
 ```bash
    /etc/udhcpd.conf
    /etc/default/udhcpd
+```
+
+* interfaces
+```bash
+   /etc/network/interfaces
 ```
