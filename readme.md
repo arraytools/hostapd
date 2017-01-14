@@ -1,10 +1,8 @@
-`
+```bash
 sudo service udhcpd restart
-
 ps -ef | grep hostapd
-
 ps -ef | grep udhcpd
-
+```
 Reference:
 http://elinux.org/RPI-Wireless-Hotspot
 
