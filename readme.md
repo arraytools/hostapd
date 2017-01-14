@@ -18,6 +18,7 @@ Note: Change the ssid and wpa_passphrase in `/etc/hostapd/hostapd.conf`.
    /etc/hostapd/hostapd.conf
    /etc/default/hostapd
 ```
+
 2. udhcpd
 ```bash
    /etc/udhcpd.conf
