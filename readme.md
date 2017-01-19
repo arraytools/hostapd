@@ -1,11 +1,16 @@
+For some reason, the udhcpd service may not start automatically. It is safe to run the following (see also `runhostapd` script)
+
 ```bash
+sudo /etc/init.d/networking restart
+sudo service hostapd stop
 sudo service hostapd start
-sudo service udhcpd restart
+sudo service udhcpd stop
+sudo service udhcpd start
 
 ps -ef | grep hostapd
 ps -ef | grep udhcpd
-
-sudo service --status-all
+route -n
+ifconfig
 ```
 Reference: http://elinux.org/RPI-Wireless-Hotspot
 
