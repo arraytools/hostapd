@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo /etc/init.d/networking restart
+sudo service hostapd stop
+sudo service hostapd start
+sudo service udhcpd stop
+sudo service udhcpd start

@@ -1,0 +1,5 @@
+#!/bin/bash
+ps -ef | grep hostapd
+ps -ef | grep udhcpd
+route -n
+ifconfig
